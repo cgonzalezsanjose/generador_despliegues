@@ -1,0 +1,21 @@
+En el momento del corte el responsable de despliegues seleccionará aquellos desarrollos pendientes de mover a PROD con las pruebas de ST/IT completaadas satisfactoriamente (chequear Excel).
+
+Los despliegues correspondientes a esos desarrollos deberán fundirse en un nuevo despliegue que deberá ejecutarse en el mismo orden en que fueron movidos a Pruebas.
+
+En caso de que un despliegue en Pruebas no este listo para ir a PROD pero si lo esté uno posterior deberá verificarse que el desarrollo que si va a PROD no contiene ninguno de los objetos del que no va a subir a PROD.
+
+La fusión de despliegues consta de las siguientes partes:
+
+-	Creación de una carpeta en Pendiente PROD con la fecha del corte yyyymmdd como nombre. 
+-	Dentro incluiremos todos los scripts de los desarrollos a desplegar en PROD
+-	Crearemos un fichero “Package Deploy DWH.sql” dentro de la carpeta con los scripts en el mismo orden en que se ejecutaron en Pruebas.
+-	Creamos una subcarpeta llamada “Validación” donde estarán los mismos scripts y el fichero “Package Deploy DWH.sql” pero con las bbdd modificadas para el entorno de validación (_v).
+-	Modificamos el Excel Despliegues.xls y ponemos en el campo Fecha PRO el nombre de la carpeta (fecha de core yyyymmdd) en aquellos desarrollos incluidos en el despliegue a PROD.
+-	Eliminamos las carpetas de los despliegues fusionados.
+-	Se comunica a Lantik las instrucciones de despliegue
+
+Si el despliegue acaba satisfactoriamente se informan los campos Fecha PROD (con la fecha en que se ha realizado el despliegue) y el status del despliegue.
+
+Se manda un mail informando de los desarrollos desplegados al equipo de desarrollo más William.
+
+Si el despliegue da algún error se toman las medidas correctivas adecuadas incluyéndolas en un despliegue nuevo que se aplicará en Pruebas y luego a PROD siguiendo todos los pasos descritos en este documento.

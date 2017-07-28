@@ -1,0 +1,5 @@
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\LogicaGeneracionDespliegue\bin\Debug\LogicaGeneracionDespliegue.dll
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\LogicaGeneracionDespliegue\bin\Debug\LogicaGeneracionDespliegue.pdb
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\LogicaGeneracionDespliegue\obj\Debug\LogicaGeneracionDespliegue.dll
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\LogicaGeneracionDespliegue\obj\Debug\LogicaGeneracionDespliegue.pdb
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\LogicaGeneracionDespliegue\obj\Debug\LogicaGeneracionDespliegue.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GeneradoDesplieguesWin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RegexReemplazo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">${bd}_v</Value>
+    </Setting>
+    <Setting Name="RegexValidacion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(?&lt;bd&gt;dbn1_stg_dhyf|dbn1_norm_dhyf|dbn1_dmr_dhyf)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

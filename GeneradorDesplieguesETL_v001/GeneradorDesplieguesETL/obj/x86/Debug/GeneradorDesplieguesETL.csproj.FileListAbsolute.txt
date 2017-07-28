@@ -1,0 +1,8 @@
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\bin\Debug\GeneradorDesplieguesETL.exe.config
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\bin\Debug\GeneradorDesplieguesETL.exe
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\bin\Debug\GeneradorDesplieguesETL.pdb
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\bin\Debug\LogicaGeneracionDespliegue.dll
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\bin\Debug\LogicaGeneracionDespliegue.pdb
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\obj\x86\Debug\GeneradorDesplieguesETL.csprojResolveAssemblyReference.cache
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\obj\x86\Debug\GeneradorDesplieguesETL.exe
+C:\D\Workarea\Proyectos\GeneradorDesplieguesETL\GeneradorDesplieguesETL\obj\x86\Debug\GeneradorDesplieguesETL.pdb

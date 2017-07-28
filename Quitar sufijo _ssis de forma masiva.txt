@@ -1,0 +1,5 @@
+Abrir una consola de PowerShell
+
+Moverse a la carpeta donde están los scripts [cd C:\xxxxxx\xxxx]
+
+dir | rename-item -NewName {$_.name -replace "_ssis",""}
