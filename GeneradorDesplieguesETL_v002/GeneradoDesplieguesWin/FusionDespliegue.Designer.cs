@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FusionDespliegue));
             this.fbdOrigen = new System.Windows.Forms.FolderBrowserDialog();
             this.fbdDestino = new System.Windows.Forms.FolderBrowserDialog();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,28 +45,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 54);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 17);
+            this.label1.Size = new System.Drawing.Size(127, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Carpeta con despliegues:";
             // 
             // tbOrigen
             // 
-            this.tbOrigen.Location = new System.Drawing.Point(193, 52);
-            this.tbOrigen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbOrigen.Location = new System.Drawing.Point(145, 42);
             this.tbOrigen.Name = "tbOrigen";
-            this.tbOrigen.ReadOnly = true;
-            this.tbOrigen.Size = new System.Drawing.Size(453, 22);
+            this.tbOrigen.Size = new System.Drawing.Size(341, 20);
             this.tbOrigen.TabIndex = 1;
             // 
             // btnOrigen
             // 
-            this.btnOrigen.Location = new System.Drawing.Point(681, 48);
-            this.btnOrigen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOrigen.Location = new System.Drawing.Point(511, 39);
             this.btnOrigen.Name = "btnOrigen";
-            this.btnOrigen.Size = new System.Drawing.Size(83, 28);
+            this.btnOrigen.Size = new System.Drawing.Size(62, 23);
             this.btnOrigen.TabIndex = 2;
             this.btnOrigen.Text = "...";
             this.btnOrigen.UseVisualStyleBackColor = true;
@@ -74,28 +71,24 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 100);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(24, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 17);
+            this.label2.Size = new System.Drawing.Size(115, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Carpeta destino fusion:";
+            this.label2.Text = "Carpeta destino fusión:";
             // 
             // tbDestino
             // 
-            this.tbDestino.Location = new System.Drawing.Point(193, 96);
-            this.tbDestino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbDestino.Location = new System.Drawing.Point(145, 78);
             this.tbDestino.Name = "tbDestino";
-            this.tbDestino.ReadOnly = true;
-            this.tbDestino.Size = new System.Drawing.Size(453, 22);
+            this.tbDestino.Size = new System.Drawing.Size(341, 20);
             this.tbDestino.TabIndex = 4;
             // 
             // btnDestino
             // 
-            this.btnDestino.Location = new System.Drawing.Point(681, 92);
-            this.btnDestino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDestino.Location = new System.Drawing.Point(511, 75);
             this.btnDestino.Name = "btnDestino";
-            this.btnDestino.Size = new System.Drawing.Size(83, 28);
+            this.btnDestino.Size = new System.Drawing.Size(62, 23);
             this.btnDestino.TabIndex = 5;
             this.btnDestino.Text = "...";
             this.btnDestino.UseVisualStyleBackColor = true;
@@ -103,38 +96,35 @@
             // 
             // btnFusionar
             // 
-            this.btnFusionar.Location = new System.Drawing.Point(333, 178);
-            this.btnFusionar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFusionar.Location = new System.Drawing.Point(250, 145);
             this.btnFusionar.Name = "btnFusionar";
-            this.btnFusionar.Size = new System.Drawing.Size(97, 53);
+            this.btnFusionar.Size = new System.Drawing.Size(73, 43);
             this.btnFusionar.TabIndex = 6;
-            this.btnFusionar.Text = "Fusionar despliegues";
+            this.btnFusionar.Text = "Fusión";
             this.btnFusionar.UseVisualStyleBackColor = true;
             this.btnFusionar.Click += new System.EventHandler(this.btnFusionar_Click);
             // 
             // tb_numPase
             // 
-            this.tb_numPase.Location = new System.Drawing.Point(193, 136);
-            this.tb_numPase.Margin = new System.Windows.Forms.Padding(4);
+            this.tb_numPase.Location = new System.Drawing.Point(145, 110);
             this.tb_numPase.Name = "tb_numPase";
-            this.tb_numPase.Size = new System.Drawing.Size(71, 22);
+            this.tb_numPase.Size = new System.Drawing.Size(54, 20);
             this.tb_numPase.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(67, 139);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(50, 113);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 17);
+            this.label3.Size = new System.Drawing.Size(89, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "Número de Pase:";
             // 
             // FusionDespliegue
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 244);
+            this.ClientSize = new System.Drawing.Size(595, 198);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_numPase);
             this.Controls.Add(this.btnFusionar);
@@ -144,9 +134,9 @@
             this.Controls.Add(this.btnOrigen);
             this.Controls.Add(this.tbOrigen);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FusionDespliegue";
-            this.Text = "Fusion de despliegues";
+            this.Text = "Fusionador de despliegues";
             this.Load += new System.EventHandler(this.FusionDespliegue_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
